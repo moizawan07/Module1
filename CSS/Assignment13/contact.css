@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all-page-container{
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  box-shadow: -2px -1px 2px 3px #2e4053;
+  backdrop-filter: blur(2px);
+}
+
+
+
+.logo img {
+  width: 100px;
+}
+
+.items ul {
+  display: flex;
+}
+
+.items ul li {
+  width: 80px;
+  height: 25px;
+  list-style: none;
+ margin: 25px 15px 0px  0px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ border-color: #2e4053;
+ box-shadow: inset -1px -1px 5px black;
+ background-color: #2e4053;
+ border-radius: 10px;
+ text-align: center;
+ align-content: center;
+ font-size: 15px;
+ color: black;
+}
+
+.items ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.items ul li:hover{
+ background-color: transparent;
+ color: white;
+ border: 1px solid #2e4053;
+ transition: 0.5s ease-in-out;
+}
+
+.items ul li a:hover{
+  color: black;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1308085282/photo/3d-render-of-luxury-hotel-reception-and-lobby.jpg?s=1024x1024&w=is&k=20&c=FFciGRM8Q6ODmNTWoqdf3PgVCahqZ15lVb2ijqRHyAM=);
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  background-color: re;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+}
+
+.text h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 75px;
+  text-shadow: -11px -5px 2px #292828;
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  color: #f67a0f;
+}
+
+.text p{
+  display: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.section2{
+  width: 50%;
+  height: 300px;
+  margin: 100px auto;
+background: rgba(33, 30, 30, 1.05);
+border-radius: px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(33, 30, 30, 0.3);
+}
+
+.one{
+  width: 85%;
+  background-color: re;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  margin: auto;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+}
+
+.box1{
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+.box2{
+  width: 40%;
+  border-radius: 5px;
+  align-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.btn{
+  width: 85%;
+  margin: auto;
+  background-color: re;
+  padding-top: 50px;
+}
+
+.btn button{
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+    border: 2px solid #07a384;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn button:hover{
+  border: 1px solid #068068;
+  background-color: #068068;
+}
+
+.section3{
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.textss h2{
+  font-size: 50px;
+  margin: 10px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textss p{
+font-size: 13px;
+font-family: sans-serif;
+padding: 5px;
+}
+
+.in{
+  padding-top: 40px;
+}
+
+.in input{
+  font-size: 15px;
+  border-color: #E7AD5D;
+  outline: none;
+  margin: 15px 0px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.in button{
+  width: 150px;
+  height: 35px;
+  background-color: #E7AD5D;
+  color: white;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  align-content: center;
+}
+
+
+.map{
+ width: 30%;
+ margin-top: 100px;
+ border: 1px solid blac;
+ margin-left: 2%;
+ box-shadow: inset -2px -2px 5px black;
+}
+
+.map iframe{
+  border-radius: 10px;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+ background-color: black;
+ color: white;
+ margin-top: 80px;
+ padding-top: 10px;
+}
+
+.textssssss{
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  color: white;
+  font-weight: 900;
+  background-color: re;
+ margin-right: 10px;
+  padding: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.fa-solid.fa-phone{
+  font-size: 25px;
+  color: #146EBE;
+}
+.fa-solid.fa-envelope{
+  color: #61BFEB;
+  font-size: 25px;
+}
+
+.fa-solid.fa-location-dot{
+  color: #D12B2F;
+  font-size: 25px;
+}
+
+.second-line{
+  position: relative;
+  top: 49%;
+  text-align: center;
+}
+
+.second-line p{
+ font-weight: 200;
+  font-size: 17px;
+}
+
+.second-line i{
+  font-size: 12px;
+ background-color: whit;
+ position: relative;
+ right: 4px;
+}
+
+@media (max-width: 500px) {
+  .all-page-container{
+    width: 100%;
+  }
+
+  .navbar{
+    width: 100%;
+    
+  }
+
+  .logo{
+    width: 20%;
+  }
+
+  .logo img{
+    width: 100%; 
+  } 
+
+ .items{
+  width: 80%;
+ }
+
+  .items ul li{
+    width: 50px;
+    font-size: 12px;
+    background-color: #2e4053;
+    margin: 30px 10px 0px 0px;
+  }
+
+.image {
+  width: 100%;
+  height: 600px;
+}
+.text{
+  width: 85%;
+  margin: auto;
+}
+
+.text h1{
+  font-size: 38px;
+}
+
+.text p{
+  font-size: 10px;
+}
+
+#box-font{
+  font-size: 9px;
+  line-height: 15px;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+}
+
+.textssssss{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textssssss p{
+  background-color: re;
+  font-size: 10px;
+}
+
+.textssssss i{
+  font-size: 15px;
+}
+
+.fa-solid.fa-location-dot{
+  font-size: 15px;
+}
+
+.fa-solid.fa-envelope{
+  font-size: 15px;
+}
+
+.fa-solid.fa-phone{
+  font-size: 15px;
+}
+
+.second-line p{
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.second-line i{
+  font-size: 8px;
+}
+
+.map{
+  background-color: red;
+  width: 80%;
+  margin-top: 100px;
+  border: 1px solid blac;
+  margin-left: 5%;
+}
+
+.map iframe{
+  width: 100%;
+}
+
+.in input{
+  background-color: re;
+  width: 70%;
+}
+
+}

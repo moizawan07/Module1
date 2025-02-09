@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    position: fixed;
+}
+
+.items ul{
+    display: flex;
+}
+
+.items ul li{
+    margin: 15px;
+    list-style: none;
+    transition: 2s ease-in-out;
+    position: relative;
+}
+
+.items ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: -5px;
+}
+
+.items ul li:hover::after{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.main-flex-box{
+    background-color: gray;
+    border: 1px solid black;
+  padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.image{
+    width: 20%;
+    height: 350px;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+.image img{
+    width: 100%;
+    height: 300px;
+}
+
+.image:hover{
+  transform: rotate(360deg);
+}
+
+/* .px{
+    height: 250px;
+    width: 1200px;
+    background-color: lightblue;
+} */
+
+.maingrid{
+    margin: auto;
+    width: 800px;
+   border: 2px solid green;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(3,100px);
+   gap: 20px;
+}
+
+#one{
+    background-color: greenyellow;
+    grid-row: 1/4;
+}
+#two{
+    background-color: greenyellow;
+    grid-column: 2/4;
+}
+
+#three{
+    background-color: red;
+}
+
+#four{
+    background-color: darkgoldenrod;
+}
+#five{
+    background-color: red;
+}
+#six{
+    grid-row: 2/4;
+    grid-column: 4;
+    background-color: greenyellow;
+}
+
+#seven{
+    background-color: darkgoldenrod;
+}
+#eight{
+    background-color: red;
+}

@@ -1,0 +1,12 @@
+
+
+.container-fluid{
+    height: auto;
+    background-color: red;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input::after{
+    accent-color: red;
+}

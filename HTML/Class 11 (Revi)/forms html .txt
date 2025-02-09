@@ -1,0 +1,15 @@
+Action attribute is required in form tag
+<form action="url" method="get"></form>
+
+
+type= text. passowrd, email, number, radio, check,
+date, datetime, submit, file, url, textarea, image and search.
+
+
+ATTRIBUTES
+Placeholder, name, id, checked, required, disabled,
+value, maxlength, minlength, size, selected, label and legend
+
+Tag
+
+fieldset

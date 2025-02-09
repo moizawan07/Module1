@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: black;
+} */
+
+.container{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+   height: 90px;
+    display: flex;
+    justify-content: space-between;
+   background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.logo{
+    width: 30%;
+    background-color: re;
+}
+
+.logo img{
+    margin-left: 15px;
+    width: 105px;
+    height: 100px;
+}
+
+.navbar{
+    width: 40%;
+    background-color: yello;
+    margin-top: 40px;
+}
+
+.navbar ul{
+    display: flex;
+   justify-content: space-around;
+}
+
+.navbar ul li{
+    list-style: none;
+    font-size: 17px;
+    position: relative;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: chartreuse;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-out;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.center{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://img.freepik.com/premium-photo/dive-into-spectrum-taste-with-our-bestselling-cocktails-vibrant-hues-bold-flavors_979421-3910.jpg?size=626&ext=jpg&ga=GA1.1.947001471.1717226881&semt=ais_hybrid);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center h2{
+    font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+    font-size: 37px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    text-shadow:-2px -2px 5px #ED0800, 2px 2px 5px black;
+}
+
+.center p{
+   color: #fff;
+    width: 53%;
+    margin: 0px auto;
+    position: relative;
+    top: 39%;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.menubar{
+    width: 100%;
+}
+
+.menubar marquee{
+    width: 100%;
+    height: 150px;
+    background-color: #ED0800;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.menubar marquee h1{
+    font-size: 50px;
+    color: white;
+    font-family: "Poopins", sans-serif;
+    font-weight: 800;
+}
+
+.items-main{
+    width: 100%;
+    /* display: fle;
+    justify-content: center; */
+    /* gap: 25px; */
+    justify-content: space-around;
+    background-color: yellw;
+    height: 800px;
+    text-align: center;
+}
+
+.single-box{
+    position: relative;
+    top: 30px;
+    width: 22%;
+    height: 450px;
+   background-color: purpl;
+   box-shadow: rgba(0, 0, 0, 0.55) 1.95px 1.95px 4.6px;
+   display: inline-block;
+   margin: 10px 5px;
+}
+
+.text-area1{
+    position: relative;
+    border: 4px double darkblue;
+    border-color: transparent;
+    border-bottom-color: #ED0800;
+}
+
+.btn1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 12px;
+    border-color: #ED0800;
+    border-radius: 3px;
+    background-color: #ED0800;
+    width: 20%;
+    color: white;
+     
+}
+.single-box img{
+    width: 100%;
+    height: 250px;
+}
+.text-area2{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.text-area2 h3{
+    font-size: 22px;
+    color: black;
+    font-family: "Poopins", sans-serif;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
+.text-area2 button{
+   margin-top: 45px;
+   width: 35%;
+   height: 30px;
+   background-color: transparent;
+   color: white;
+   border-color: red;
+   background-color: red;
+   font-size: 17px;
+   outline: none;
+   transition: 0.4s;
+   border-radius: 5px;
+}
+
+.text-area2 button:hover{
+    background-color: transparent;
+    color: red;
+}
+
+.points{
+    width: 100%;
+    background-color: re;
+   height: 300px;
+   margin-top: 1100px;
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.point1{
+    width: 28%;
+    height: 280px;
+    border-radius: 15px;
+    border: 1px solid blac;
+    text-align: cente;
+    padding-top: 5px;
+    background-color: oldlace; 
+   box-shadow: -1px -1px 2px #000 inset ,0px 0px 10px #000 inset;
+   flex-wrap: wrap;
+}
+
+.point1:hover{
+    box-shadow: -1px -1px 2px #000 ,0px 0px 5px #000;
+}
+
+.point1 p{
+    width: 68%;
+    /* margin: 18px auto; */
+    position: relative;
+    top: 20px;
+    left: 10px;
+   letter-spacing: 2px;
+   font-size: 13px;
+   /* font-family: "Poopins", sans-serif; */
+   font-weight: bold;
+   text-align: justify;
+   font-style: italic;
+}
+
+.point1 i{
+   position: relative;
+   left: 20px;
+   top: 90px;
+   font-size: 18px;
+}
+
+.fa-solid.fa-star{
+    color: #FCA616;
+}
+
+.point1 img{
+    width: 27%;
+    height: 110px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 10px;
+}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+    
+.container{
+    width: 117%;
+}
+
+    .header{
+        width: 117%;
+       height: 90px;
+        display: flex;
+        justify-content: space-between;
+       background-color: red;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      font-weight: 300;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .logo img{
+        margin-left: px;
+        width: 85px;
+        height: 100px;
+    }
+
+    .navbar{
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .navbar ul{
+        display: flex;
+       justify-content: center;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        font-size: 12px;
+        position: relative;
+        margin: 0px 10px;
+    }
+
+    .center{
+        width: 117%;
+        height: 700px;
+}
+    
+.center h2{
+    font-size: 30px;
+}
+
+.center p{
+     width: 93%;
+ }
+
+ .menubar{
+    width: 100%;
+}
+
+.menubar marquee{
+    width: 117%;
+    height: 150px;
+    background-color: #ED0800;
+    align-content: center;
+}
+
+.menubar h1{
+    font-size: 40px;
+}
+
+.items-main{
+    width: 117%;
+    /* display: fle;
+    justify-content: center; */
+    /* gap: 25px; */
+    justify-content: space-around;
+    background-color: yellw;
+    /* height: 800px; */
+    text-align: center;
+}
+
+.single-box{
+    position: relative;
+    top: 30px;
+    width: 96%;
+    height: 450px;
+   background-color: purpl;
+   box-shadow: rgba(0, 0, 0, 0.55) 1.95px 1.95px 4.6px;
+   display: block;
+   margin: 10px 5px;
+}
+  
+.points{
+    width: 117%;
+   margin-top: 6900px;
+   padding-top: 50px;
+  display: block;
+}
+
+.point1{
+    width:  96%;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+
+
+}

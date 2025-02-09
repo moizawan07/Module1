@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    min-width: 1409px;
+     max-width: 1409px; 
+}
+      /* CSS  NAVBAR CODE START */
+
+.header{
+    width: 100%;
+    height: 70px;
+}
+
+.header div{
+    display: inline-block;
+}
+
+.logo img{
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar ul li{
+    width: 50px;
+    height: 15px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-right: 80px;
+}
+
+select,
+option{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    width: 95px;
+    height: 40px;
+    align-self:center;
+}
+
+    /* CSS NAVBAR CODE COMPLETE */
+
+    /* CSS MAIN IMAGE CODE START */
+
+.main-image{
+    background-image: url(main-banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+.content-of-text{
+    margin-left: 30%;
+    padding-top: 190px;
+}
+
+.para1{
+    font-size: 25px;
+    margin-left: 148px;
+}
+
+.head1{
+    font-size: 80px;
+    text-shadow: -20px -15px 5px rgb(70, 68, 68); 
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.btn1{
+    margin-left: 185px;
+    background-color:#2996D8 ;
+    color: whitesmoke;
+    width: 140px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+}
+  
+   /* CSS MAIN IMAGE CODE COMPLETE */
+
+     /* CSS TRENDING CATEGORY CODE START */
+
+
+
+  .image-container h2{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    text-shadow: -15px -20px 5px  rgb(70, 68, 68);
+  } 
+
+  .box{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 30px;
+  }
+
+  .box p{
+    text-align: center;
+    margin-top: 15px;
+  }
+
+ .radi{
+    background-color: #262626;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+ } 
+
+.radi img{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+    /* CSS TRENDING CATEGORY CODE COMLETE */
+
+     /* CSS TWO IMAGES INLINE CODE START */
+
+.two-images{
+    margin-top: 80px;
+    
+}
+
+.first-image{
+    background-image: url(box-image-1\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    width: 47%;
+    height: 350px;
+    display: inline-block;
+   padding-top: 50px;
+   margin: 20px;
+   margin-left: 25px;
+}    
+
+.second-image{
+    background-image: url(box-image-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 47%;
+    height: 350px;
+    display: inline-block;
+    padding-top: 50px;
+    margin: 2px;
+}
+
+.first-image p{
+    margin-left: 260px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.first-image h2{
+    margin-left: 180px;
+    margin-top: 15px;
+    font-size: 45px;
+}
+
+.second-image p{
+    margin-left: 280px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.second-image h2{
+    margin-left: 230px;
+    margin-top: 15px;
+    font-size: 45px;
+}
+
+.first-image button{
+    margin-left: 255px;
+    margin-top: 20px;
+    width: 145px;
+    height: 35px;
+    background-color: #2996D8;
+    color: whitesmoke;
+    border: none;
+}
+
+.second-image button{
+    margin-left: 255px;
+    margin-top: 20px;
+    width: 145px;
+    height: 35px;
+    background-color: #2996D8;
+    color: whitesmoke;
+    border: none;
+}
+
+   /* CSS TWO IMAGES INLINE CODE COMPLETE */
+
+.trending-product-items{
+    margin-left: 35px;
+}
+
+.trending-product-items h2{
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: -20px -15px 5px  rgb(70, 68, 68);
+    
+}
+
+
+.card{
+    display: inline-block;
+    background-color: rgb(39, 37, 37);
+    margin: 5px;
+}   
+
+.image{
+    background-color: rgb(71, 69, 69);
+    margin:10px;
+    border-bottom: 4px #2996D8;
+    border-style: double;
+    border-top: none;
+    border-right: none ;
+    border-left: none;
+}
+
+.text{
+    margin: 25px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+
+.last-img{
+    margin-top: 70px;
+    background-image: url("discount-banner.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 700px;
+}
+
+.last-img p{
+    margin-left: 38%;
+    font-size: 20px;
+   padding-top: 80px;
+}
+
+.last-img h2{
+    margin-left: 30%;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.last-img b{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.last-img button{
+    margin-top: 15px;
+    margin-left: 38%;
+    background-color: #2996D8;
+    color: whitesmoke;
+    width: 150px;
+    height: 35px;
+    border: none;
+}

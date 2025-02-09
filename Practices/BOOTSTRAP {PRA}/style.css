@@ -1,0 +1,32 @@
+.navbar-ul li a{
+    color: rgb(240, 6, 53);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.serchbox{
+    width: 280px !important;
+    border: 1px solid crimson !important;
+    border-radius: 25px !important;
+}
+
+.button{
+    width: 90px !important;
+    border-radius: 300px !important;
+    border: 1px solid rgb(95, 89, 90) !important;
+}
+
+@media (max-width:992px){
+ .navbar-ul li a{
+    text-align: center;
+ }
+ .serchbox,.button{
+    width: 100% !important;
+    margin-top: 10px;
+    border-radius: 250px
+     !important;
+ }
+ .d-flex{
+    flex-direction: column;
+ }
+}
